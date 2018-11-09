@@ -1,0 +1,48 @@
+.buttons {
+  display: flex;
+}
+
+.colored-button {
+  height: 10vh;
+  width: 10vh;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.colored-button.blue {
+  background-color: #4285F4;
+}
+
+.colored-button.red {
+  background-color: #DB4437;
+}
+
+.colored-button.yellow {
+  background-color: #F4B400;
+}
+
+.colored-button.green {
+  background-color: #0F9D58;
+}
+
+.colored-text {
+  font-size: 60px;
+  color: #484b50;
+}
+
+.colored-text.blue {
+  color: #4285F4;
+}
+
+.colored-text.red {
+  color: #DB4437;
+}
+
+.colored-text.yellow {
+  color: #F4B400;
+}
+
+.colored-text.green {
+  color: #484b50;
+}

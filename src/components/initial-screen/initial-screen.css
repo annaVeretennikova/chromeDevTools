@@ -1,0 +1,21 @@
+.app-logo {
+  animation: app-logo-spin infinite 20s linear;
+  height: 40vmin;
+  cursor: pointer;
+}
+
+.app-headline {
+  font-size: 60px;
+  background: linear-gradient(to right, #4285F4, #DB4437, #F4B400, #0F9D58);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
